@@ -1,0 +1,341 @@
+.navbar-toggler-icon {
+    padding-top: 0.6vw;
+    /* Thay đổi màu chữ của biểu tượng */
+    color: white;
+  }
+  .nav-link:hover{
+    color: aquamarine;
+  }
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nova{
+    color: aqua;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3vw;
+  }
+  .token{
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .nova_footer{
+    color: aqua;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 44vw;
+  }
+  .token_footer{
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  p{
+    color: white;
+  }
+  .text-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: aquamarine;
+  }
+  .text-under{
+    color: white;
+    font-weight: bold;
+  }
+  .introduction{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container_body{
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 5vw;
+  }
+  .roadmap{
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 5vw;
+  }
+  .roadmap_content{
+    padding-left: 10vw;
+  }
+  .image_superman_1{
+    position: relative;
+    animation: move 2s linear infinite alternate;
+    width: 30vw;
+    height: 30vw;
+  }
+  .image_superman_2{
+    position: relative;
+    animation: move 2s linear infinite alternate;
+    width: 25vw;
+    height: 35vw;
+  }
+  .text_header_1{
+    font-size: 2rem;font-weight: bold;
+}
+.text_header_2{
+    font-size: 3.5rem;font-weight: bold;
+}
+.text_header_3{
+    font-size: 1.5rem;
+}
+.row_body{
+    padding-top: 8vw;
+    padding-left: 10vw;
+}
+.row_intro{
+    padding-top: 8vw;
+    padding-left: 10vw;
+}
+.header_text_roadmap{
+  justify-content: center;
+  padding-top: 2vw;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: aquamarine;
+}
+.line{
+  margin-left: 9vw;
+  width: 7px;
+  height: 60vw;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.phase_empty_first{
+  padding: 0;
+  margin: 0;
+  height: 15vw;
+}
+.phase_empty_between_13{
+  padding: 0;
+  margin: 0;
+  height: 10vw;
+}
+.image_roadmap{
+  position: relative;
+  animation: move 2s linear infinite alternate;
+  padding: 0;
+  margin: 0;
+  width: 35vw;
+  height: 22vw;
+}
+.phase_content{
+  width: 22vw;
+  padding-left: 1rem;
+  padding-right:1rem;
+  border: 0.2rem solid aquamarine;
+  border-radius: 1rem;
+  position: absolute;
+  animation: contentmove 2s linear infinite alternate;
+  background-color: darkblue;
+  top: 0;
+  left: 0;
+  margin-top: 19.5vw;
+  margin-left: 7vw;
+}
+.phase_content_1{
+  width: 22vw;
+  padding-left: 1rem;
+  padding-right:1rem;
+  border: 0.2rem solid aquamarine;
+  border-radius: 1rem;
+  position: absolute;
+  animation: contentmove 2s linear infinite alternate;
+  background-color: darkblue;
+  top: 0;
+  left: 0;
+  margin-top: 4.5vw;
+  margin-left: 7vw;
+}
+.phase_content_3{
+  width: 22vw;
+  padding-left: 1rem;
+  padding-right:1rem;
+  border: 0.2rem solid aquamarine;
+  border-radius: 1rem;
+  position: absolute;
+  animation: contentmove 2s linear infinite alternate;
+  background-color: darkblue;
+  top: 0;
+  left: 0;
+  margin-top: 36.5vw;
+  margin-left: 7vw;
+}
+.phase_index{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: aquamarine;
+}
+.phase_name{
+  padding-left: 1vw;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: aquamarine;
+}
+.phase_name:hover{
+  color: orange;
+}
+.no-padding{
+  height: 2.5vw;
+}
+.social__item{
+  width: 3vw;
+  height: 3vw;
+  background-color: aqua;
+}
+.footer{
+  padding-top: 5vw;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5vw;
+}
+.decor{
+  width: 15vw;
+  height: 15vw;
+  margin-bottom: 3vw;
+}
+  @keyframes move {
+    from { top: 0; left: 0; }
+    to { top:2%; left: 1%; }
+}
+@keyframes contentmove {
+  from { top: 0; left: 0; }
+  to { top:0%; left: 1%; }
+}
+
+@media screen and (max-width: 765px) 
+{
+
+    .text_header_1{
+        padding-top: 15vw;
+        font-size: 1rem;font-weight: bold;
+    }
+    .text_header_2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .text_header_3{
+        font-size: 1rem;
+    }
+    .image_superman_1{
+        margin-left: 10vw;
+        width: 60vw;
+        height: 60vw;
+        margin-bottom: 10vw;
+    }
+    .image_superman_2{
+      margin-left: 20vw;
+      width: 40vw;
+      height: 60vw;
+      margin-bottom: 10vw;
+  }
+    .row_body{
+        padding-top: 8vw;
+        padding-left: 5vw;
+    }
+    /*---------------roadmap-----------------------------------*/
+    .line{
+      display: none;
+    }
+    .phase_empty_first{
+      display: none;
+    }
+    .phase_empty_between_13{
+      display: none;
+    }
+    .image_roadmap{
+      position: relative;
+      animation: move 2s linear infinite alternate;
+      padding: 0;
+      margin: 0;
+      width: 80vw;
+      height: 42vw;
+    }
+    .phase_content{
+      width: 53vw;
+      padding-left: 1rem;
+      padding-right:1rem;
+      border: 0.2rem solid aquamarine;
+      border-radius: 1rem;
+      position: absolute;
+      animation: contentmove 2s linear infinite alternate;
+      background-color: darkblue;
+      top: 0;
+      left: 0;
+      margin-top: 5vw;
+      margin-left: 15vw;
+    }
+    .phase_content_1{
+      width: 53vw;
+      padding-left: 1rem;
+      padding-right:1rem;
+      border: 0.2rem solid aquamarine;
+      border-radius: 1rem;
+      position: absolute;
+      animation: contentmove 2s linear infinite alternate;
+      background-color: darkblue;
+      top: 0;
+      left: 0;
+      margin-top: 5vw;
+      margin-left: 15vw;
+    }
+    .phase_content_3{
+      width: 53vw;
+      padding-left: 1rem;
+      padding-right:1rem;
+      border: 0.2rem solid aquamarine;
+      border-radius: 1rem;
+      position: absolute;
+      animation: contentmove 2s linear infinite alternate;
+      background-color: darkblue;
+      top: 0;
+      left: 0;
+      margin-top: 47vw;
+      margin-left: 15vw;
+    }
+    .phase_index{
+      font-size: 1rem;
+      font-weight: bolder;
+      color: aquamarine;
+    }
+    .phase_name{
+      padding-left: 1vw;
+      font-size: 1rem;
+      font-weight: bolder;
+      color: aquamarine;
+    }
+    .phase_index_content{
+      font-size: 0.5rem;
+    }
+    .phase_name:hover{
+      color: orange;
+    }
+    .no-padding{
+      padding-top: 1vw;
+      height: 7.5vw;
+    }
+    .nova_footer{
+      color: aqua;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left: 24vw;
+    }
+    .token_footer{
+      color: orange;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+}
