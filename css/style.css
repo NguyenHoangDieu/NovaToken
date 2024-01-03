@@ -3,6 +3,12 @@
     /* Thay đổi màu chữ của biểu tượng */
     color: white;
   }
+  .logo-intro{
+    max-height: 120px;
+    max-width: 120px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
   .nav-link:hover{
     color: aquamarine;
   }
@@ -338,4 +344,5 @@
       font-size: 2rem;
       font-weight: bold;
     }
+
 }
